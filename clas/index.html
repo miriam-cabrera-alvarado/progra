@@ -1,42 +1,78 @@
 <!DOCTYPE html>
+<!-- Indica que es HTML5 -->
 <html lang="en">
+<!-- Contiene todo el contenido, especifica el idioma inglés -->
 <head>
+<!-- Es el encabezado del documento -->
     <meta charset="UTF-8">
+    <!-- Establece el estandar de caracteres -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Hace que la página pueda ser responsive -->
     <title>Document</title>
+    <!-- Es el título de la página -->
     <link scr="CSS/css.css"></link>
+    <!-- Vincula el archivo css con el html para que pueda verse el diseño -->
 </head>
+<!-- Cierra la parte del encabezado -->
 <body>
+<!-- Es el cuerpo de la página -->
     <div class="calculator">
+        <!-- Es un contenedor para los elementos de la calculadora -->
         <input type="text" id="display" class="calculator-screen" value="" disabled>
-
+        <!-- Es un campo de entrada para la calculadora, donde se mostrarán los resultados -->
         <div class="calculator-buttons">
+        <!-- Es un contenedor para los botones de la calculadora -->
             <button class="button" onclick="clearDisplay()">C</button>
+            <!-- Es un botón de la calculadora -->
             <button class="button" onclick="deleteLast()">DEL</button>
+            <!-- Es un botón de la calculadora -->
             <button class="button" onclick="appendToDisplay('/')">/</button>
+            <!-- Es un botón de la calculadora -->
             <button class="button" onclick="appendToDisplay('*')">*</button>
+            <!-- Es un botón de la calculadora -->
 
+            
             <button class="button" onclick="appendToDisplay('7')">7</button>
+            <!-- Es un botón de la calculadora -->
             <button class="button" onclick="appendToDisplay('8')">8</button>
+            <!-- Es un botón de la calculadora -->
             <button class="button" onclick="appendToDisplay('9')">9</button>
+            <!-- Es un botón de la calculadora -->
             <button class="button" onclick="appendToDisplay('-')">-</button>
+
             
             <button class="button" onclick="appendToDisplay('4')">4</button>
+            <!-- Es un botón de la calculadora -->
             <button class="button" onclick="appendToDisplay('5')">5</button>
+            <!-- Es un botón de la calculadora -->
             <button class="button" onclick="appendToDisplay('6')">6</button>
+            <!-- Es un botón de la calculadora -->
             <button class="button" onclick="appendToDisplay('+')">+</button>
+            <!-- Es un botón de la calculadora -->
 
+            
             <button class="button" onclick="appendToDisplay('1')">1</button>
+            <!-- Es un botón de la calculadora -->
             <button class="button" onclick="appendToDisplay('2')">2</button>
+            <!-- Es un botón de la calculadora -->
             <button class="button" onclick="appendToDisplay('3')">3</button>
+            <!-- Es un botón de la calculadora -->
             <button class="button equal-button" onclick="calculateResult()">=</button>
             
+            
             <button class="button" onclick="appendToDisplay('0')">0</button>
+            <!-- Es un botón de la calculadora -->
             <button class="button" onclick="appendToDisplay('.')">.</button>            
+            <!-- Es un botón de la calculadora -->        
         </div>
+        <!-- Se cierra el contenedor de los botones -->
     </div>
+    <!-- Se cierra el contenedor de la calculadora -->
 
 
     <script src="JS/index.js"></script>
+    <!-- Es un link para conectar el archivo de java script -->
 </body>
+<!-- Se termina el cuerpo de la página -->
 </html>
+<!-- Aquí termina la página web -->
