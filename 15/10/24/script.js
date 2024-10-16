@@ -105,6 +105,19 @@ const user = {
  consola amigos
  */
 
- console.log(user);
- alert(activo);
- 
+ console.log(user.nombre + '  ' + user.ap + '  ' + user.am);
+ console.log(edad);
+ console.log(user.amigos);
+
+ if(user.activo = true){
+
+    alert('user activo');
+ }
+ else{
+    alert('user inactivo');
+ }
+
+alert(user.dir.calle + ' ' + user.dir.num + ' ' + user.dir.col + ' ' + user.dir.del);
+
+
+mostrar(user);
